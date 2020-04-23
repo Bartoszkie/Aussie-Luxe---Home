@@ -1,0 +1,36 @@
+.page-footer {
+    width: 100%;
+    min-height: 21px;
+    background-color: #5863F8;
+    padding: 102px 0 36px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+
+    .footer__details {
+        height: 100%;
+
+        &__h4 {
+            color: rgba(255, 255, 255, 0.7);
+            font-family: "Raleway", sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0px;
+        }
+
+        &__p {
+            color: rgba(255, 255, 255, 0.3);
+            font-family: "Raleway", sans-serif;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0px;
+            font-weight: 100;
+        }
+    }
+}
