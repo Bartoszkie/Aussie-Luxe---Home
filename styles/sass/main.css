@@ -499,30 +499,11 @@ html {
   border-radius: 4px;
   background-color: #fff;
   padding: 56px 0px 0px 0px;
-  max-width: 256px;
-  margin: 0 auto;
+  margin: 0 32px;
   position: relative;
   z-index: 200;
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
-}
-
-@media screen and (min-width: 360px) {
-  .section-gridbox {
-    max-width: 288px;
-  }
-}
-
-@media screen and (min-width: 456px) {
-  .section-gridbox {
-    max-width: 456px;
-  }
-}
-
-@media screen and (min-width: 456px) {
-  .section-gridbox {
-    max-width: 704px;
-  }
 }
 
 .section-gridbox .gridbox {
