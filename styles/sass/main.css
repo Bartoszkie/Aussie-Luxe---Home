@@ -53,7 +53,7 @@ html {
   font-size: 24px;
   color: #FF4858;
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .page-header__menu {
@@ -100,7 +100,7 @@ html {
 
 .page-header__menu__desktop__ul__item a {
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 14px;
   font-size: 12px;
@@ -199,7 +199,7 @@ html {
 
 .page-header__menu__item > a {
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 14px;
   font-size: 12px;
@@ -506,6 +506,18 @@ html {
           transform: translateY(-30px);
 }
 
+@media screen and (min-width: 1024px) {
+  .section-gridbox {
+    margin: 0 104px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-gridbox {
+    margin: 0 160px;
+  }
+}
+
 .section-gridbox .gridbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -550,6 +562,12 @@ html {
     -webkit-box-shadow: 0px 0px 10px #00000029;
             box-shadow: 0px 0px 10px #00000029;
     border-radius: 0px 0px 4px 4px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .section-gridbox .gridbox__card {
+    margin: 0 48px;
   }
 }
 
@@ -682,13 +700,26 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
+}
+
+.info--casino {
+  padding: 0 96px 61px;
 }
 
 .info__img {
   width: 100%;
   border-radius: 0;
   margin: 16px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .info__img {
+    width: 50%;
+  }
 }
 
 .info__heading {
@@ -717,7 +748,7 @@ html {
   margin: 32px 30px 52px 30px;
   font-size: 14px;
   font-weight: 100;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 19px;
 }
 
@@ -731,7 +762,13 @@ html {
   color: #231841;
   margin: 16px 30px 16px 30px;
   font-weight: 100;
-  font-family: "Roboto", s;
+  font-family: "Roboto", "sans-serif";
+}
+
+@media screen and (min-width: 1024px) {
+  .info__paragraph-m0 {
+    margin: 16px 0px 16px 0px;
+  }
 }
 
 .page-footer {
@@ -762,7 +799,7 @@ html {
 
 .page-footer .footer__details__h4 {
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -772,7 +809,7 @@ html {
 .page-footer .footer__details__p {
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.3);
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0px;
@@ -787,5 +824,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 /*# sourceMappingURL=main.css.map */
