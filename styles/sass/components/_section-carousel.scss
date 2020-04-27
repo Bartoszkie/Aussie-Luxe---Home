@@ -83,6 +83,10 @@
                     @media screen and (min-width: 768px) {
                         transform: translateY(-25px) translateX(80px);
                     }
+
+                    // @media screen and (min-width: 1280px) {
+                    //     transform: translateY(-25px) translateX(480px);
+                    // }
                 }
 
                 &::after {

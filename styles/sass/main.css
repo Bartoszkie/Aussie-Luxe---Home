@@ -515,6 +515,10 @@ html {
 @media screen and (min-width: 1280px) {
   .section-gridbox {
     margin: 0 160px;
+    max-width: 960px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 
