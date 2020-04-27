@@ -1,18 +1,31 @@
+:root {
+    --swiper-navigation-size: 28px !important;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
     color: #fff !important;
+    display: none !important;
 
-    @media only screen and (max-width: 520px) {
-        display: none !important;
+    @media only screen and (min-width: 768px) {
+        display: block !important;
     }
 }
 
-.swiper-pagination {
-    display: none;
+.swiper-button-prev {
+    margin-left: 10px;
+}
 
-    @media only screen and (max-width: 520px) {
-        display: block;
-        transform: translateY(-60px) !important;
+.swiper-button-next {
+    margin-right: 10px;
+}
+
+.swiper-pagination {
+    display: block;
+    transform: translateY(-60px) !important;
+
+    @media only screen and (min-width: 768px) {
+        display: none;
     }
 }
 
@@ -26,12 +39,11 @@
     }
 }
 
-.section-carousel {}
-
 .swiper-container {
     z-index: 200;
     height: 100%;
-    // min-height: 400px;
+
+    // min-height: 400px; 
     // max-width: 1200px;
 
     .swiper-wrapper {
@@ -57,10 +69,20 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: 50%;
+                padding-right: 50px;
 
                 &>* {
                     position: relative;
                     z-index: 10;
+
+                    @media screen and (min-width: 520px) {
+                        transform: translateY(-40px) translateX(30px);
+                        margin-left: 20px;
+                    }
+
+                    @media screen and (min-width: 768px) {
+                        transform: translateY(-25px) translateX(80px);
+                    }
                 }
 
                 &::after {
@@ -77,6 +99,15 @@
 
                     &>* {
                         transform: translateY(-50px) translateX(32px);
+
+                        @media screen and (min-width: 360px) {
+                            transform: translateY(-50px) translateX(45px);
+                        }
+
+                        @media screen and (min-width: 520px) {
+                            transform: translateY(-40px) translateX(30px);
+                            margin-left: 20px;
+                        }
                     }
                 }
 
@@ -134,7 +165,8 @@
                         margin-top: 25px;
                     }
 
-                    &:hover {
+                    &:hover,
+                    &:focus {
                         background-color: #fff;
                         color: rgba(88, 99, 248, 0.5);
                     }
