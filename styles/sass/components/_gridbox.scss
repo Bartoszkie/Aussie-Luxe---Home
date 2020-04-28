@@ -62,7 +62,13 @@
             margin: 0 48px;
         }
 
+        @media screen and (min-width: 668px) {
+            max-width: 360px;
+            margin: 0 auto;
+        }
+
         @media screen and (min-width: 768px) {
+            max-width: unset;
             margin: 0;
         }
 
