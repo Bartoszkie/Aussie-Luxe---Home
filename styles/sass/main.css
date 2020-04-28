@@ -300,8 +300,56 @@ html {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 1622px) {
+  .swiper-button-prev {
+    left: 20% !important;
+  }
+}
+
+@media screen and (min-width: 1884px) {
+  .swiper-button-prev {
+    left: 22% !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .swiper-button-prev {
+    left: 25% !important;
+  }
+}
+
+@media screen and (min-width: 2303px) {
+  .swiper-button-prev {
+    left: 29% !important;
+  }
+}
+
 .swiper-button-next {
   margin-right: 10px;
+}
+
+@media screen and (min-width: 1622px) {
+  .swiper-button-next {
+    right: 20% !important;
+  }
+}
+
+@media screen and (min-width: 1884px) {
+  .swiper-button-next {
+    right: 22% !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .swiper-button-next {
+    right: 25% !important;
+  }
+}
+
+@media screen and (min-width: 2303px) {
+  .swiper-button-next {
+    right: 29% !important;
+  }
 }
 
 .swiper-pagination {
@@ -329,6 +377,15 @@ html {
 .swiper-container {
   z-index: 200;
   height: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-container .center-div {
+    padding-left: 10%;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 160px;
+  }
 }
 
 .swiper-container .swiper-wrapper {
@@ -370,6 +427,14 @@ html {
   background-size: cover;
   background-position: 50%;
   padding-right: 50px;
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-container .swiper-wrapper .swiper-slide .slide {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .slide > * {
@@ -425,6 +490,12 @@ html {
     -webkit-transform: translateY(-40px) translateX(30px);
             transform: translateY(-40px) translateX(30px);
     margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 520px) and (min-width: 1280px) {
+  .swiper-container .swiper-wrapper .swiper-slide .slide > * {
+    margin-left: 160px;
   }
 }
 
@@ -808,9 +879,9 @@ html {
 }
 
 .page-footer .footer__details__h4 {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0px;
@@ -818,7 +889,7 @@ html {
 
 .page-footer .footer__details__p {
   margin-top: 10px;
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 14px;
