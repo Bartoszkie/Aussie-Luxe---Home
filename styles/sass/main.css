@@ -549,7 +549,7 @@ html {
   line-height: 53px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 520px) {
   .swiper-container .swiper-wrapper .swiper-slide .slide__h1 {
     width: 211px;
     line-height: 32px;
@@ -588,12 +588,6 @@ html {
   outline: none;
   -webkit-transition: 0.2s ease-in-out all;
   transition: 0.2s ease-in-out all;
-}
-
-@media only screen and (max-width: 360px) {
-  .swiper-container .swiper-wrapper .swiper-slide .slide__btn {
-    margin-top: 25px;
-  }
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .slide__btn:hover, .swiper-container .swiper-wrapper .swiper-slide .slide__btn:focus {
