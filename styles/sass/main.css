@@ -359,60 +359,19 @@ html {
   }
 }
 
+.button-center {
+  position: absolute;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .swiper-button-prev {
-  margin-left: 35px;
-}
-
-@media screen and (min-width: 1622px) {
-  .swiper-button-prev {
-    left: 20% !important;
-  }
-}
-
-@media screen and (min-width: 1884px) {
-  .swiper-button-prev {
-    left: 22% !important;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  .swiper-button-prev {
-    left: 25% !important;
-  }
-}
-
-@media screen and (min-width: 2303px) {
-  .swiper-button-prev {
-    left: 29% !important;
-  }
+  margin-left: 20px;
 }
 
 .swiper-button-next {
-  margin-right: 35px;
-}
-
-@media screen and (min-width: 1622px) {
-  .swiper-button-next {
-    right: 20% !important;
-  }
-}
-
-@media screen and (min-width: 1884px) {
-  .swiper-button-next {
-    right: 22% !important;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  .swiper-button-next {
-    right: 25% !important;
-  }
-}
-
-@media screen and (min-width: 2303px) {
-  .swiper-button-next {
-    right: 29% !important;
-  }
+  margin-right: 20px;
 }
 
 .swiper-pagination {
@@ -440,14 +399,53 @@ html {
 .swiper-container {
   z-index: 200;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-container .center-div {
+  width: 100%;
+  max-width: 960px;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container .center-div {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .swiper-container .center-div {
-    padding-left: 10px;
     height: 100%;
-    width: 100%;
-    max-width: 960px;
+    margin-left: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1111px) {
+  .swiper-container .center-div {
+    height: 100%;
+    margin-left: 80px !important;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .swiper-container .center-div {
+    height: 100%;
+    margin-left: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .swiper-container .center-div {
+    height: 100%;
+    margin-left: 130px !important;
   }
 }
 
