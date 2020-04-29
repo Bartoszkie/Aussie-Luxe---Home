@@ -61,29 +61,14 @@
         &::before {
             content: "";
             position: absolute;
-            top: -330px;
-            height: 330px;
+            top: -210px;
+            height: 210px;
             width: 100%;
             background-color: #5863F8;
 
-            @media screen and (max-width: 700px) {
-                top: -290px;
-                height: 290px;
-            }
-
-            @media screen and (max-width: 558px) {
-                top: -210px;
-                height: 210px;
-            }
-
-            @media screen and (max-width: 420px) {
-                top: -140px;
-                height: 140px;
-            }
-
-            @media screen and (max-width: 360px) {
-                top: -60px;
-                height: 60px;
+            @media screen and (max-width: 500px) {
+                top: -70px;
+                height: 70px;
             }
         }
     }
