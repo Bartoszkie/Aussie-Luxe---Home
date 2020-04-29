@@ -897,13 +897,13 @@ html {
 }
 
 @media screen and (min-width: 360px) {
-  .info--casino > * {
+  .info--casino > p {
     padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 520px) {
-  .info--casino > * {
+  .info--casino > p {
     padding: 0 48px;
   }
 }
@@ -915,11 +915,45 @@ html {
   width: 100%;
 }
 
+@media screen and (min-width: 360px) {
+  .info iframe {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .info iframe {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info iframe {
+    padding: 0 !important;
+  }
+}
+
 .info__img {
-  max-width: 512px;
+  margin: 20px 0;
   width: 100%;
-  border-radius: 0;
-  margin: 16px 0;
+}
+
+@media screen and (min-width: 360px) {
+  .info__img {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .info__img {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info__img {
+    padding: 0 !important;
+  }
 }
 
 .info__heading {
