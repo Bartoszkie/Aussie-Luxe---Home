@@ -23,10 +23,6 @@
         max-width: 600px;
         width: 100%;
 
-        // @media screen and (max-width: 894px) {
-        //     width: 100%;
-        // }
-
         @media screen and (min-width: 1024px) {
             width: 80%;
         }
@@ -56,6 +52,10 @@
 
         &__mt {
             margin-top: 84px;
+
+            @media screen and (min-width: 768px) {
+                line-height: 29px !important;
+            }
         }
 
         @media screen and (min-width: 768px) {

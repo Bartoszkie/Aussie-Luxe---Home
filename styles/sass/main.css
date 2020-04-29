@@ -621,8 +621,7 @@ html {
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .slide__btn:hover, .swiper-container .swiper-wrapper .swiper-slide .slide__btn:focus {
-  border-color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
   color: #5863F8;
 }
 
@@ -919,6 +918,12 @@ html {
 
 .info__heading__mt {
   margin-top: 84px;
+}
+
+@media screen and (min-width: 768px) {
+  .info__heading__mt {
+    line-height: 29px !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
