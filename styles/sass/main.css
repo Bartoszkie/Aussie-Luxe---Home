@@ -910,6 +910,7 @@ html {
 
 .info__paragraph-m0 {
   color: #231841;
+  width: 100%;
   margin: 16px 30px 16px 30px;
   font-weight: 100;
   font-family: "Roboto", "sans-serif";
@@ -925,6 +926,10 @@ html {
   .info__paragraph-m0 {
     margin: 16px 0px;
   }
+}
+
+.info__paragraph-m0:last-child {
+  margin-bottom: 64px;
 }
 
 .page-footer {

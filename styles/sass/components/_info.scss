@@ -90,6 +90,7 @@
 
     &__paragraph-m0 {
         color: #231841;
+        width: 100%;
 
         // margin-top: 32px;
         margin: 16px 30px 16px 30px;
@@ -105,5 +106,9 @@
         font-weight: 100;
         font-family: "Roboto",
         "sans-serif";
+
+        &:last-child {
+            margin-bottom: 64px;
+        }
     }
 }
