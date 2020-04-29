@@ -573,6 +573,7 @@ html {
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .slide__btn {
+  display: inline-block;
   margin-top: 36px;
   border: 2px solid #ffffff;
   border-radius: 4px;
