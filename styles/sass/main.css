@@ -412,20 +412,12 @@ html {
   height: 100%;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .swiper-container .center-div {
-    padding-left: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    padding-left: 10px;
     height: 100%;
     width: 100%;
     max-width: 960px;
-    margin: 0 160px;
   }
 }
 
@@ -595,8 +587,6 @@ html {
   outline: none;
   -webkit-transition: 0.2s ease-in-out all;
   transition: 0.2s ease-in-out all;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
 }
 
 @media only screen and (max-width: 360px) {
