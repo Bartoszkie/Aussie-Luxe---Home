@@ -625,6 +625,12 @@ html {
           transform: translateY(-30px);
 }
 
+@media screen and (min-width: 360px) {
+  .section-gridbox {
+    margin: 0 36px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .section-gridbox {
     margin: 0 32px;
@@ -700,7 +706,6 @@ html {
     margin: 0 25px;
     -webkit-box-shadow: 0px 0px 10px #00000029;
             box-shadow: 0px 0px 10px #00000029;
-    border-radius: 0px 0px 4px 4px;
   }
 }
 
@@ -718,7 +723,6 @@ html {
 
 @media screen and (min-width: 768px) {
   .section-gridbox .gridbox__card {
-    max-width: unset;
     margin: 0;
   }
 }

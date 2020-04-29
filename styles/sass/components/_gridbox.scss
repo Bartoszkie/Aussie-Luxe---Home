@@ -13,6 +13,10 @@
 
   transform: translateY(-30px);
 
+  @media screen and (min-width: 360px) {
+    margin: 0 36px;
+  }
+
   @media screen and (min-width: 1024px) {
     margin: 0 32px;
     align-self: center;
@@ -59,7 +63,7 @@
     @media screen and (min-width: 456px) {
       margin: 0 25px;
       box-shadow: 0px 0px 10px #00000029;
-      border-radius: 0px 0px 4px 4px;
+      // border-radius: 0px 0px 4px 4px;
     }
 
     @media screen and (min-width: 520px) {
@@ -71,7 +75,7 @@
     }
 
     @media screen and (min-width: 768px) {
-      max-width: unset;
+      // max-width: unset;
       margin: 0;
     }
 
