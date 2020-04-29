@@ -910,27 +910,16 @@ html {
 
 .info iframe {
   margin: 20px 0;
-  max-width: 600px;
+  max-width: 512px;
+  max-height: 288px;
   width: 100%;
-}
-
-@media screen and (min-width: 1024px) {
-  .info iframe {
-    width: 80%;
-  }
 }
 
 .info__img {
-  max-width: 600px;
+  max-width: 512px;
   width: 100%;
   border-radius: 0;
   margin: 16px 0;
-}
-
-@media screen and (min-width: 1024px) {
-  .info__img {
-    width: 80%;
-  }
 }
 
 .info__heading {

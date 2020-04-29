@@ -20,25 +20,28 @@
 
     iframe {
         margin: 20px 0;
-        max-width: 600px;
+        max-width: 512px;
+        max-height: 288px;
+
+        // height: 100%;
         width: 100%;
 
-        @media screen and (min-width: 1024px) {
-            width: 80%;
-        }
+        // @media screen and (min-width: 1024px) {
+        //     width: 80%;
+        // }
     }
 
     &__img {
 
-        max-width: 600px;
+        max-width: 512px;
         width: 100%;
         border-radius: 0;
 
         margin: 16px 0;
 
-        @media screen and (min-width: 1024px) {
-            width: 80%;
-        }
+        // @media screen and (min-width: 1024px) {
+        //     width: 80%;
+        // }
     }
 
     &__heading {
