@@ -76,7 +76,7 @@ html {
 .page-header__menu {
   list-style-type: none;
   position: absolute;
-  top: -100%;
+  top: -110%;
   left: 50%;
   width: 100%;
   z-index: -100;
@@ -87,7 +87,16 @@ html {
   transition: .2s ease-in-out all;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  max-height: 138px;
+}
+
+.page-header__menu::before {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 100%;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
 }
 
 .page-header__menu__desktop {
@@ -207,7 +216,7 @@ html {
 }
 
 .page-header__menu__item:last-child {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .page-header__menu__item:not(:last-child) {
@@ -596,8 +605,9 @@ html {
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .slide__btn:hover, .swiper-container .swiper-wrapper .swiper-slide .slide__btn:focus {
-  background-color: #fff;
-  color: rgba(88, 99, 248, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #5863F8;
 }
 
 .section-gridbox {
