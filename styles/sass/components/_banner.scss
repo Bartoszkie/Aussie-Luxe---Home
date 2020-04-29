@@ -32,6 +32,10 @@
         }
 
         &__details {
+            width: 100%;
+            max-width: 960px;
+            padding: 0 32px;
+
             &__h2,
             &__h1 {
                 z-index: 5;

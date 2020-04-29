@@ -7,17 +7,41 @@
     text-align: center;
 
     &--casino {
-        padding: 0 96px 61px;
+        &>* {
+            @media screen and (min-width: 360px) {
+                padding: 0 32px;
+            }
+
+            @media screen and (min-width: 520px) {
+                padding: 0 48px;
+            }
+        }
+    }
+
+    iframe {
+        margin: 20px 0;
+        max-width: 600px;
+        width: 100%;
+
+        // @media screen and (max-width: 894px) {
+        //     width: 100%;
+        // }
+
+        @media screen and (min-width: 1024px) {
+            width: 80%;
+        }
     }
 
     &__img {
+
+        max-width: 600px;
         width: 100%;
         border-radius: 0;
 
         margin: 16px 0;
 
         @media screen and (min-width: 1024px) {
-            width: 50%;
+            width: 80%;
         }
     }
 
@@ -72,6 +96,10 @@
 
         @media screen and (min-width: 1024px) {
             margin: 16px 0px 16px 0px;
+        }
+
+        @media screen and (max-width: 919px) {
+            margin: 16px 0px;
         }
 
         font-weight: 100;

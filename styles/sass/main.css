@@ -25,6 +25,17 @@ html {
 
 .text-left {
   text-align: left !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #231841;
+  padding: 0 30px;
+}
+
+@media screen and (min-width: 360px) {
+  .text-left {
+    padding: 0;
+  }
 }
 
 .page-header {
@@ -258,6 +269,12 @@ html {
   height: 400px;
   background-color: rgba(88, 99, 248, 0.7);
   z-index: -1;
+}
+
+.section-banner__infobox__details {
+  width: 100%;
+  max-width: 960px;
+  padding: 0 32px;
 }
 
 .section-banner__infobox__details__h2, .section-banner__infobox__details__h1 {
@@ -534,6 +551,7 @@ html {
   font-weight: 100;
   line-height: 20px;
   color: #fff;
+  margin-top: 3px;
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .slide__btn {
@@ -805,11 +823,32 @@ html {
   text-align: center;
 }
 
-.info--casino {
-  padding: 0 96px 61px;
+@media screen and (min-width: 360px) {
+  .info--casino > * {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .info--casino > * {
+    padding: 0 48px;
+  }
+}
+
+.info iframe {
+  margin: 20px 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .info iframe {
+    width: 80%;
+  }
 }
 
 .info__img {
+  max-width: 600px;
   width: 100%;
   border-radius: 0;
   margin: 16px 0;
@@ -817,7 +856,7 @@ html {
 
 @media screen and (min-width: 1024px) {
   .info__img {
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -873,6 +912,12 @@ html {
 @media screen and (min-width: 1024px) {
   .info__paragraph-m0 {
     margin: 16px 0px 16px 0px;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .info__paragraph-m0 {
+    margin: 16px 0px;
   }
 }
 
