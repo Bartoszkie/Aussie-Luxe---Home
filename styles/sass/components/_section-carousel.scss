@@ -82,6 +82,11 @@
         @media screen and (min-width: 1280px) {
             padding-left: 10%;
 
+            display: flex;
+            flex-direction: column;
+
+
+            height: 100%;
             width: 100%;
             max-width: 960px;
             margin: 0 160px;
@@ -167,6 +172,9 @@
                     line-height: 24px;
                     font-size: 18px;
                     text-transform: uppercase;
+
+                    margin-bottom: 5px;
+                    margin-top: 44px;
                 }
 
                 &__h1 {
@@ -195,6 +203,7 @@
                     line-height: 20px;
                     color: #fff;
                     margin-top: 3px;
+               
                 }
 
                 &__btn {
@@ -211,6 +220,8 @@
                     text-transform: uppercase;
                     outline: none;
                     transition: 0.2s ease-in-out all;
+
+                    align-self: flex-end;
 
                     @media only screen and (max-width: 360px) {
                         margin-top: 25px;
