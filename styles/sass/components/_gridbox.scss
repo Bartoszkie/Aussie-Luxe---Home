@@ -63,7 +63,7 @@
     @media screen and (min-width: 456px) {
       margin: 0 25px;
       box-shadow: 0px 0px 10px #00000029;
-      // border-radius: 0px 0px 4px 4px;
+      border-radius: 0 0 4px 4px;
     }
 
     @media screen and (min-width: 520px) {
@@ -89,6 +89,10 @@
 
     img {
       width: 100%;
+
+      @media screen and (min-width: 456px) {
+        border-radius: 4px 4px 0 0;
+      }
     }
 
     &__details {
