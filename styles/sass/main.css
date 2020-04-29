@@ -321,6 +321,8 @@ html {
   width: 100%;
   max-width: 960px;
   padding: 0 32px;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
 }
 
 .section-banner__infobox__details__h2, .section-banner__infobox__details__h1 {
@@ -661,6 +663,11 @@ html {
         -ms-grid-row-align: center;
         align-self: center;
   }
+}
+
+.section-gridbox__places {
+  -webkit-transform: translateY(-150px) !important;
+          transform: translateY(-150px) !important;
 }
 
 .section-gridbox .gridbox {
@@ -1024,6 +1031,15 @@ html {
   position: absolute;
   top: -80px;
   height: 80px;
+  width: 100%;
+  background-color: #5863F8;
+}
+
+.page-footer__places::before {
+  content: "";
+  position: absolute;
+  top: -180px;
+  height: 180px;
   width: 100%;
   background-color: #5863F8;
 }

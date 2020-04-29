@@ -23,6 +23,18 @@
         background-color: #5863F8;
     }
 
+    &__places {
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -180px;
+            height: 180px;
+            width: 100%;
+            background-color: #5863F8;
+        }
+    }
+
     &__privacy {
         &::before {
             content: "";
