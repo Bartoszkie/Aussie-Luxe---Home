@@ -38,6 +38,12 @@ html {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .text-left {
+    padding: 0 104px !important;
+  }
+}
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
